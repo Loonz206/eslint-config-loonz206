@@ -10,7 +10,8 @@
     "pretty": "prettier --ignore-path .gitignore \"**/*.+(js|json|md)\"",
     "test": "echo 'Roads? Where we are going we dont need roads - Doc Brown'",
     "validate": "npm-run-all --parallel check-format lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "publish": "npm publish"
   },
   "author": "Lenny Peters",
   "license": "MIT",
