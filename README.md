@@ -1,10 +1,9 @@
-# Put Badging up here
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+![Code Style Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 
 - npm
 - downloads
 - github actions
-- code style prettier
-- convential commitizen
 - license
 - issues
 
