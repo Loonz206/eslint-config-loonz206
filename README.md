@@ -1,13 +1,11 @@
+![NPM downloads](https://img.shields.io/npm/dm/eslint-config-loonz206)
+![GitHub issues](https://img.shields.io/github/issues/loonz206/eslint-config-loonz206)
+[![Github Actions CI](https://github.com/Loonz206/eslint-config-loonz206/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/Loonz206/eslint-config-loonz206/actions/workflows/ci.yml)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 ![Code Style Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
+![MIT License](https://img.shields.io/badge/license-MIT-red.svg?style=flat)
 
-- npm
-- downloads
-- github actions
-- license
-- issues
-
-# ESLint (and Prettier) config
+# eslint-config-loonz206
 
 ## What it does
 
@@ -18,7 +16,18 @@ This setup lints your JavaScript code based on practices. Check the [.eslintrc.j
 1. In your project folder, run:
 
 ```
-npm i -D eslint-config-loonz206 # or yarn install --dev eslint-config-loonz206
+npm i -D eslint-config-loonz206
+```
+
+or for `yarn`
+
+```
+yarn install --dev eslint-config-loonz206
+```
+
+then run
+
+```
 npx install-peerdeps --dev eslint-config-loonz206
 ```
 
