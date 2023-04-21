@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-loonz206",
-  "version": "1.0.8",
+  "version": "1.0.6",
   "description": "a config for loonz206",
   "main": "index.js",
   "keywords": [
