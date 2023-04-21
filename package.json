@@ -13,7 +13,7 @@
     "prepare": "husky install",
     "publish": "npm publish"
   },
-  "repository": "https://github.com/loonz206/eslint-config-loonz206",
+  "repository": "git@github.com:loonz206/eslint-config-loonz206",
   "author": "Lenny Peters",
   "license": "MIT",
   "devDependencies": {
