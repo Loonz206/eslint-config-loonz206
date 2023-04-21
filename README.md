@@ -41,7 +41,7 @@ npx install-peerdeps --dev eslint-config-loonz206
 }
 ```
 
-3. Copy the [.editorconfig](https://github.com/loonz206/eslint-config-loonz206/blob/main/.editorconfig) file from this repository into your project folder
+3. Copy the [.editorconfig](https://github.com/loonz206/eslint-config-loonz206/blob/main/.editorconfig) file from this repository into your project folder, and be sure you have eslint and prettier installed
 
 ---
 
