@@ -23,6 +23,9 @@
     "publish": "npm publish"
   },
   "repository": "git@github.com:loonz206/eslint-config-loonz206",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "Lenny Peters",
   "license": "MIT",
   "peerDependencies": {
