@@ -41,7 +41,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
-    needs: lint
+    needs: [build, lint]
     steps:
       - uses: actions/checkout@v3
       # Setup .npmrc file to publish to npm
@@ -54,14 +54,14 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
   create-release:
-    name: Create Release
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [16.x]
+    needs: [build, lint, publish]
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@v1
+      - uses: actions/checkout@v3
+      - uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
